@@ -1,0 +1,36 @@
+.quiz_wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+}
+
+.quiz_wrapper .quiz_que {
+    width: 70%;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: #e5e5e5 0px 2px 4px;
+}
+.quiz_que div:first-child h6{
+    margin-bottom: 0rem;
+}
+.quiz_que div:first-child p{
+    margin-left: 1rem;
+}
+
+.option_wrapper p{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    font-weight: 600;
+    font-size: 14px;
+}
+.option_wrapper label{
+    display: block;
+}
+
+.option_wrapper label input{
+    margin-bottom: 0rem;
+    margin-right: 1rem;
+}
